@@ -1,0 +1,21 @@
+Project 2 Hidden Watermark Encoder and Decoder Python Desktop App
+You will build a python desktop application that will allow the user to encode a secret watermark inside their image. 
+The method of this type of encryption is called Steganography.
+
+Example use case: On Friday a company releases secret images of their new products to ten clients. 
+The company encodes a different hidden watermark on the image sent to each client. 
+The clients are not allowed to share these images since the information is still not public. 
+On Monday the image of the new product went public online. 
+You are able to decode the watermark and determine which client illegally released the images. 
+Clients are not able to decode the watermark themselves since they do not have a secret encoding algorithm, 
+and they are not able to see it and know the image was encoded.
+
+Your desktop application should take an image and a logo then return an image with the logo secretly hidden in the original image. 
+Your application should also be able to take an image and decode the hidden watermark by making it visible. 
+The watermark should repeat itself many times on the image in case it is cropped or cut.
+
+You will use Python as the language to build this application. 
+Python comes with several frameworks for building desktop applications. 
+While PySimpleGUI is a user-friendly Python framework, PyQt5 is one of the advanced Python-based GUI frameworks. 
+For the encoding algorithms here is an example of a guy making the encoder and decoder on youtube. 
+You can google yourself and find a better algorithm if you choose. Make sure you write units tests for this application.
